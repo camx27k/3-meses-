@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<title>3 Meses</title>
-<style>
-    body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background: #ffb6c1;
-    }
-    h1 {
-        font-size: 2.5em;
-        color: white;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    }
-    button {
-        background: white;
-        border: none;
-        padding: 15px 25px;
-        border-radius: 10px;
-        font-size: 1.2em;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-    button:hover {
-        transform: scale(1.1);
-        background: #ffe6ea;
-    }
-</style>
-</head>
-<body>
+    <meta charset="UTF-8">
+    <title>3 Meses ❤️</title>
+    <style>
+        body {
+            background: #f7e6ff;
+            font-family: "Arial", sans-serif;
+            text-align: center;
+            padding: 90px 20px;
+        }
 
-<h1>Quer ver uma coisa especial? 💖</h1>
-<button onclick="window.location.href='surpresa.html'">Clique aqui</button>
+        h1 {
+            font-size: 42px;
+            color: #b300ff;
+            animation: pulse 2s infinite;
+        }
 
-</body>
-</html>
+        p {
+            font-size: 20px;
+            color: #541a66;
+            margin-top: 20px;
+        }
+
+        button {
+            margin-top: 40px;
+            padding: 14px 26px;
+            background: #b300ff;
+            color: white;
+            font-size: 19px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #8a00cc;
+            transform: scale(1.05);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+            100% { transform: scale(1); }
+        }
